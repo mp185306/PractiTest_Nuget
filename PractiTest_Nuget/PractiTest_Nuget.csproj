@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>PractiTestUtility_Nuget</PackageId>
+    <Authors>Mohan</Authors>
+    <Company>NCR</Company>
+    <Description>Read Tests , Test Instances and Update Test results to PractiTest</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ncr-payment-solutions/NPS-PractiTest/tree/feature/NPP-15090</RepositoryUrl>
+    <PackageTags>PractiTest Utility</PackageTags>
+    <PackageReleaseNotes>Read Tests , Test Instances and Update Test results to PractiTest</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+
+</Project>
